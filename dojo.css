@@ -1,0 +1,61 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+/* Boton favorito*/  
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 0 30px;
+    box-shadow: 3px 3px 5px 0px black;
+}
+.row{
+    display: flex;
+    height: 50px;
+}
+.col{
+    flex: 1;
+    background-color: skyblue;
+    margin: 5px;
+    border: 5px;
+}
+/* Barra de navegación con flex*/  
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+}
+.nav-title{
+    margin-left: 20px; 
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.btn{
+    background-color: rgb(52, 204, 204);
+    box-shadow: 4px 4px 2px 1px black;
+    margin-right: 20px;
+    width: 120px;
+    height: 35px;
+}
+.nav a{
+    text-decoration: none;
+}
